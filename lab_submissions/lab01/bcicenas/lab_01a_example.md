@@ -5,3 +5,4 @@ Calculus doesn't scare me, but statistics takes more thought. I started programm
 Twitter: [@alphrabet](https://twitter.com/Alphrabet)
 
 A fun convergence of art, natural language processing, and python by a friend of mine: http://jennazeigen.com/project-synesthesia.html
+
