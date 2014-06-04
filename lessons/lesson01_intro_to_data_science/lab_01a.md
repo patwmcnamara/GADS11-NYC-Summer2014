@@ -1,7 +1,7 @@
 # Computer Setup and Data Handling
 ## Macs: installing `homebrew`
 
-`Homebrew` is a mac installer for packages/libraries/etc that works alongside Apple's installers. We need it for git. Install oneliner:
+`Homebrew` is a mac installer for packages/libraries/etc that works alongside Apple's installers. We need it for git. If typing `brew` into your terminal doesn't return an error, you're set. Otherwise:
 
 ```sh
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
@@ -38,6 +38,7 @@ pip install ggplot
 ```
 
 ## Installing `git`
+If typing `git` into your terminal doesn't return an error, you're set. Otherwise:
 
 * Macs: `brew install git`
 * Windows: Install git bash http://openhatch.org/missions/windows-setup/install-git-bash
