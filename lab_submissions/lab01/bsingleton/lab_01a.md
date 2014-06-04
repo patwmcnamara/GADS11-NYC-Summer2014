@@ -6,5 +6,5 @@ First programmed in Palm OS many a years ago. Left programming for a while but r
 
 Twitter: [@officialbensing](https://twitter.com/officialbensing)
 
-Thought this was pretty cool - data science using Twitter feed http://www.danielforsyth.me/analyzing-a-nhl-playoff-game-with-twitter/
+Thought this was really cool - data science using Twitter feed http://www.danielforsyth.me/analyzing-a-nhl-playoff-game-with-twitter/
 
