@@ -7,12 +7,11 @@ iris = load_iris()
 data = pd.DataFrame(iris.data, columns=iris.feature_names)
 data['species'] = iris.target
 
-from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 
-neighbors_clf = KNeighborsClassifier(n_neighbors = 2)
-neighbors_clf.fit(data[iris.feature_names], data.species)
-neighbors_clf.predict(iris.data)
+neighbors_clf = KNeighborsClassifier(n_neighbors = 4)
+neighbors_clf.fit(data[data.columns[:4]], data.species)
+neighbors_clf.predict(data[data.columns[:4]])
 pd.crosstab(data['species'], neighbors_clf.predict(data[iris.feature_names]))
 
 from sklearn.metrics import accuracy_score
