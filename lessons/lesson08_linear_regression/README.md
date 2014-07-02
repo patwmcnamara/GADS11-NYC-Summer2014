@@ -1,14 +1,13 @@
 ## Linear Regressions
-_Monday 4/28/2014_
 _We'll be discussing the linear regression algorithm and learn about scoring regression models_
 
 #### Class Materials
-* [Lecture Material](http://nbviewer.ipython.org/github/datadave/GADS9-NYC-Spring2014-Lectures/blob/master/lessons/lesson07_linear_regression/lec07.pdf)
-* [Lab Material](http://nbviewer.ipython.org/github/datadave/GADS9-NYC-Spring2014-Lectures/blob/master/lessons/lesson07_linear_regression/Linear%20Regression.ipynb)
+* [Lecture Material](http://nbviewer.ipython.org/github/patwmcnamara/GADS11-NYC-Summer2014/blob/master/lessons/lesson08_linear_regression/lec08.pdf)
+* [Lab Material](http://nbviewer.ipython.org/github/patwmcnamara/GADS11-NYC-Summer2014/blob/master/lessons/lesson08_linear_regression/Lab08.ipynb)
+* [Extra Notes](http://nbviewer.ipython.org/github/patwmcnamara/GADS11-NYC-Summer2014/blob/master/lessons/lesson08_linear_regression/Lab08_Notes.ipynb)
 
 #### Assignments Due
-Please submit three optimized models using the `data/day.csv` file in an ipython notebook or python script for each y variable casual, registered, and cnt. Please put this in a `lab_submissions/lab07/yourname` folder.
-
+Please fill in the notebook, put it in a `lab_submissions/lab08/flastname` folder, and submit a pull request
 
 ### More Reading
 | Resource | About 
