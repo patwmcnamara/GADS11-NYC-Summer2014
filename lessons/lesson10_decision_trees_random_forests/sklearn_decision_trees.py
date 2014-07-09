@@ -103,6 +103,7 @@ pydot.graph_from_dot_data(dot_data.getvalue())
 
 graph = pydot.graph_from_dot_data(dot_data.getvalue()) 
 graph.write_pdf('titanic.pdf')
+print '\nimage created!'
 
 # Create function to measure model performance
 from sklearn import metrics
@@ -198,3 +199,10 @@ fig.show()
 
 metrics.roc_auc_score(y_train, predictions)
 metrics.roc_auc_score(y_train,clf_dt.predict(X_train))
+
+'''
+HOMEWORK
+Change some of the assumptions we've made throughout the lab to see how that changes the accuracy; Imputation, tree depth, samples, etc.
+Try to find the most accurate model you can; talk about what you did, address the bias-variance tradeoff.
+How could your accuracy be improved? Think internally to our model building and externally as well.
+''''
