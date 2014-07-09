@@ -1,0 +1,298 @@
+breaking at page  102
+popularity and length of songs about january
+         popularity        length
+count  10020.000000  10020.000000
+mean       0.020840    268.951395
+std        0.057039    288.686566
+min        0.000000      4.960000
+25%        0.000000    150.232000
+50%        0.000000    216.613000
+75%        0.010000    298.200250
+max        0.600000   4233.800000
+
+[8 rows x 2 columns]
+popularity and length of songs about january after removing zeros
+        popularity       length
+count  2692.000000  2692.000000
+mean      0.077571   291.717405
+std       0.087811   258.797379
+min       0.010000    10.973000
+25%       0.010000   168.546000
+50%       0.040000   226.302500
+75%       0.112500   337.631000
+max       0.600000  3675.563000
+
+[8 rows x 2 columns]
+breaking at page  75
+popularity and length of songs about february
+        popularity       length
+count  7303.000000  7303.000000
+mean      0.026588   282.356571
+std       0.057502   265.879052
+min       0.000000     0.012000
+25%       0.000000   175.139500
+50%       0.000000   231.628000
+75%       0.020000   321.131000
+max       0.530000  4124.746000
+
+[8 rows x 2 columns]
+popularity and length of songs about february after removing zeros
+        popularity       length
+count  2513.000000  2513.000000
+mean      0.077266   293.512040
+std       0.075459   232.991298
+min       0.010000    31.132000
+25%       0.020000   184.546000
+50%       0.050000   241.706000
+75%       0.120000   361.960000
+max       0.530000  3605.238000
+
+[8 rows x 2 columns]
+	breaking at page  601
+popularity and length of songs about march
+         popularity        length
+count  59959.000000  59959.000000
+mean       0.021049    233.139858
+std        0.053671    177.426098
+min        0.000000      2.670000
+25%        0.000000    143.000000
+50%        0.000000    199.384000
+75%        0.010000    278.879500
+max        0.660000   5706.000000
+
+[8 rows x 2 columns]
+popularity and length of songs about march after removing zeros
+         popularity        length
+count  20627.000000  20627.000000
+mean       0.061185    235.237261
+std        0.076927    159.041723
+min        0.010000      5.178000
+25%        0.010000    145.680000
+50%        0.030000    202.640000
+75%        0.080000    284.000000
+max        0.660000   4057.194000
+
+[8 rows x 2 columns]
+breaking at page  283
+popularity and length of songs about april
+         popularity        length
+count  28091.000000  28091.000000
+mean       0.025742    253.097653
+std        0.063926    185.723977
+min        0.000000      2.000000
+25%        0.000000    169.750500
+50%        0.000000    212.600000
+75%        0.010000    286.000000
+max        0.600000   3799.772000
+
+[8 rows x 2 columns]
+popularity and length of songs about april after removing zeros
+        popularity       length
+count  9270.000000  9270.000000
+mean      0.078008   256.729533
+std       0.091143   159.420714
+min       0.010000    28.626000
+25%       0.010000   173.456250
+50%       0.040000   219.839500
+75%       0.110000   295.366000
+max       0.600000  3726.947000
+
+[8 rows x 2 columns]
+breaking at page  537
+popularity and length of songs about may
+         popularity        length
+count  53426.000000  53426.000000
+mean       0.027990    250.568811
+std        0.069071    197.023178
+min        0.000000      0.708000
+25%        0.000000    168.265250
+50%        0.000000    216.839500
+75%        0.020000    283.394000
+max        0.710000   5636.215000
+
+[8 rows x 2 columns]
+popularity and length of songs about may after removing zeros
+         popularity        length
+count  18588.000000  18588.000000
+mean       0.080449    252.014490
+std        0.097429    185.676464
+min        0.010000      4.000000
+25%        0.010000    175.533000
+50%        0.040000    224.237500
+75%        0.110000    285.476000
+max        0.710000   4974.838000
+
+[8 rows x 2 columns]
+breaking at page  292
+popularity and length of songs about june
+         popularity        length
+count  29076.000000  29076.000000
+mean       0.022542    235.328480
+std        0.055819    192.172613
+min        0.000000      4.733000
+25%        0.000000    158.040000
+50%        0.000000    201.920000
+75%        0.010000    262.800000
+max        0.600000   3898.630000
+
+[8 rows x 2 columns]
+popularity and length of songs about june after removing zeros
+        popularity       length
+count  9205.000000  9205.000000
+mean      0.071203   251.621996
+std       0.079859   192.625817
+min       0.010000     4.733000
+25%       0.020000   166.266000
+50%       0.040000   214.333000
+75%       0.100000   283.506000
+max       0.600000  3654.867000
+
+[8 rows x 2 columns]
+breaking at page  159
+popularity and length of songs about july
+         popularity        length
+count  15784.000000  15784.000000
+mean       0.024567    253.119618
+std        0.062972    216.889943
+min        0.000000      4.050000
+25%        0.000000    163.560000
+50%        0.000000    219.892500
+75%        0.010000    284.577250
+max        0.620000   4991.999000
+
+[8 rows x 2 columns]
+popularity and length of songs about july after removing zeros
+        popularity       length
+count  4586.000000  4586.000000
+mean      0.084553   269.177184
+std       0.092614   200.188496
+min       0.010000    30.206000
+25%       0.020000   176.189500
+50%       0.050000   228.279500
+75%       0.120000   311.063000
+max       0.620000  4991.999000
+
+[8 rows x 2 columns]
+breaking at page  179
+popularity and length of songs about august
+         popularity        length
+count  17491.000000  17491.000000
+mean       0.034834    270.908554
+std        0.083496    229.942828
+min        0.000000      2.304000
+25%        0.000000    174.046000
+50%        0.000000    232.786000
+75%        0.020000    315.353500
+max        0.680000   5174.213000
+
+[8 rows x 2 columns]
+popularity and length of songs about august after removing zeros
+        popularity       length
+count  5950.000000  5950.000000
+mean      0.102402   285.590031
+std       0.116518   202.058907
+min       0.010000    31.600000
+25%       0.020000   195.441000
+50%       0.050000   249.239500
+75%       0.160000   331.376500
+max       0.680000  5174.213000
+
+[8 rows x 2 columns]
+breaking at page  205
+popularity and length of songs about september
+         popularity        length
+count  20328.000000  20328.000000
+mean       0.024948    256.958582
+std        0.058687    196.938594
+min        0.000000      4.440000
+25%        0.000000    176.206250
+50%        0.000000    219.861000
+75%        0.020000    288.810000
+max        0.740000   4676.546000
+
+[8 rows x 2 columns]
+popularity and length of songs about september after removing zeros
+        popularity       length
+count  7042.000000  7042.000000
+mean      0.072018   268.303821
+std       0.080948   185.221166
+min       0.010000    30.119000
+25%       0.020000   184.093000
+50%       0.040000   227.562000
+75%       0.100000   306.059750
+max       0.740000  3993.925000
+
+[8 rows x 2 columns]
+breaking at page  146
+popularity and length of songs about october
+         popularity        length
+count  14441.000000  14441.000000
+mean       0.031109    280.198515
+std        0.069414    225.288690
+min        0.000000      3.056000
+25%        0.000000    189.309000
+50%        0.000000    238.746000
+75%        0.020000    320.226000
+max        0.600000   6084.432000
+
+[8 rows x 2 columns]
+popularity and length of songs about october after removing zeros
+        popularity       length
+count  5008.000000  5008.000000
+mean      0.089704   291.644419
+std       0.092944   219.467212
+min       0.010000    30.222000
+25%       0.020000   198.000000
+50%       0.050000   250.939500
+75%       0.130000   337.659500
+max       0.600000  6084.432000
+
+[8 rows x 2 columns]
+breaking at page  125
+popularity and length of songs about november
+         popularity        length
+count  12317.000000  12317.000000
+mean       0.026394    282.242939
+std        0.060724    235.447234
+min        0.000000      4.643000
+25%        0.000000    187.640000
+50%        0.000000    240.756000
+75%        0.020000    324.707000
+max        0.690000   5161.848000
+
+[8 rows x 2 columns]
+popularity and length of songs about november after removing zeros
+        popularity       length
+count  4303.000000  4303.000000
+mean      0.075550   288.657964
+std       0.082717   172.487582
+min       0.010000    32.229000
+25%       0.020000   196.960500
+50%       0.040000   252.497000
+75%       0.110000   340.040000
+max       0.690000  3474.216000
+
+[8 rows x 2 columns]
+breaking at page  190
+popularity and length of songs about december
+         popularity        length
+count  18839.000000  18839.000000
+mean       0.022805    326.475155
+std        0.059576    400.803990
+min        0.000000      0.197000
+25%        0.000000    177.611500
+50%        0.000000    231.253000
+75%        0.010000    316.752500
+max        0.630000   4797.786000
+
+[8 rows x 2 columns]
+popularity and length of songs about december after removing zeros
+        popularity       length
+count  5317.000000  5317.000000
+mean      0.080803   279.787863
+std       0.088827   238.015415
+min       0.010000    30.040000
+25%       0.020000   183.533000
+50%       0.050000   230.240000
+75%       0.120000   301.573000
+max       0.630000  4797.786000
