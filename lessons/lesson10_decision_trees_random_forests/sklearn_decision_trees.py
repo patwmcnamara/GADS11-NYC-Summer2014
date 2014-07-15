@@ -4,6 +4,7 @@
 # 3) set directory to lesson 10
 import csv
 import numpy as np
+
 with open('/Users/patrickmcnamara/Documents/GA_DataScience/Teaching/Summer14/GADS11-NYC-Summer2014/lessons/lesson10_decision_trees_random_forests/data/titanic.csv', 'r') as csvfile:
     titanic_reader = csv.reader(csvfile, delimiter=',', quotechar='"')
     
@@ -205,4 +206,4 @@ HOMEWORK
 Change some of the assumptions we've made throughout the lab to see how that changes the accuracy; Imputation, tree depth, samples, etc.
 Try to find the most accurate model you can; talk about what you did, address the bias-variance tradeoff.
 How could your accuracy be improved? Think internally to our model building and externally as well.
-''''
+'''
