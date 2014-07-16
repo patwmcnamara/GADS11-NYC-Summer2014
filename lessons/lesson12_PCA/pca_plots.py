@@ -1,10 +1,3 @@
-
-
-
-
-
-
-#!/usr/local/bin/python
 """
 =======================================================
 Comparison of LDA and PCA 2D projection of Iris dataset
@@ -76,5 +69,5 @@ def pca_plot():
     pl.show()
 
 if __name__ == '__main__':
-    # scree_plot()
+    scree_plot()
     pca_plot()
