@@ -34,27 +34,29 @@ plt.show()
 
 
 ### COMPUTING THE SCATTER MATRIX ###
+# Combining class1 and class2 samples#
+all_samples = np.concatenate((class1_sample, class2_sample), axis=1)
+assert all_samples.shape == (3,40), "The matrix has not the dimensions 3x40"
+
 
 # First we need the mean vector #
-mean_vector = np.mean(all_samples, axis=1)
-mean_vector
+mean_x = np.mean(all_samples[0,:])
+mean_y = np.mean(all_samples[1,:])
+mean_z = np.mean(all_samples[2,:])
+
+mean_vector = np.array([[mean_x],[mean_y],[mean_z]])
 
 scatter_matrix = np.zeros((3,3))
-
 for i in range(all_samples.shape[1]):
-    scatter_matrix += (all_samples[:,i].reshape(3,1) - mean_vector).dot((all_samples[:,i].reshape(3,1) - mean_vector).T)
+    scatter_matrix += (all_samples[:,i].reshape(3,1)\
+        - mean_vector).dot((all_samples[:,i].reshape(3,1) - mean_vector).T)
 
 scatter_matrix
 
 ### COMPUTING THE COVARIANCE MATRIX ###
 
 # Removing class labels, remember this is UNsupervised learning #
-
-all_samples = np.concatenate((class1_sample, class2_sample), axis=1)
-assert all_samples.shape == (3,40), "The matrix has not the dimensions 3x40"
-
 cov_mat = np.cov([all_samples[0,:],all_samples[1,:],all_samples[2,:]])
-
 cov_mat
 
 ### COMPUTING EIGENVECTORS AND CORRESPONDING EIGENVALUES ###
@@ -98,10 +100,10 @@ class Arrow3D(FancyArrowPatch):
 
 fig = plt.figure(figsize=(7,7))
 ax = fig.add_subplot(111, projection='3d')
-ax.plot(all_samples[0,:], all_samples[1,:], all_samples[2,:], 'o', markersize=8, color='green', alpha=0.2)
+ax.plot(all_samples[0,:], all_samples[1,:],all_samples[2,:], 'o', markersize=8, color='green', alpha=0.2)
 ax.plot([mean_x], [mean_y], [mean_z], 'o', markersize=10, color='red', alpha=0.5)
 for v in eig_vec_sc.T:
-    a = Arrow3D([mean_x, v[0]], [mean_y, v[1]], [mean_z, v[2]], mutation_scale=20, lw=3, arrowstyle="-|>", color="r")
+    a = Arrow3D([mean_x, v[0]], [mean_y, v[1]],[mean_z, v[2]], mutation_scale=20, lw=3, arrowstyle="-|>", color="r")
     ax.add_artist(a)
 
 ax.set_xlabel('x_values')
@@ -117,6 +119,7 @@ eig_pairs = [(np.abs(eig_val_sc[i]), eig_vec_sc[:,i]) for i in range(len(eig_val
 eig_pairs.sort(reverse=True)
 eig_pairs
 
+matrix_w = np.hstack((eig_pairs[0][1].reshape(3,1), eig_pairs[1][1].reshape(3,1)))
 
 ### TRANSFORMING THE SAMPLES ONTO THE NEW SUBSPACE ###
 transformed = matrix_w.T.dot(all_samples)
