@@ -20,7 +20,7 @@ class Car():
         else:
             print 'The car was not running!'
 
-ford = Car(wheel=-7)
+ford = Car(wheel=7)
 print "Ford wheel: " + str(ford.wheel)
 nissan = Car(model = 'Nissan')
 ford.running
