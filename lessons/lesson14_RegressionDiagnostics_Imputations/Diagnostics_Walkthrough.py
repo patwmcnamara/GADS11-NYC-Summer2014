@@ -31,7 +31,7 @@ keep_cols = list(set(pitching.columns)-set(batting_salary.columns))
 keep_cols = keep_cols + ['playerID','yearID']
 pitching = pitching[keep_cols]
 pitching = pitching.drop(['GIDP','SH','SF'], axis=1)
-pitching = pitching[['ERA','SO','playerID','yearID']]
+pitching = pitching[['ERA','playerID','yearID']]
 
 # MERGE DATASETS #
 data = pd.merge(batting_salary, pitching, on=['playerID','yearID'], how='outer')
@@ -40,7 +40,7 @@ data = data.drop(['playerID','yearID'], axis=1)
 # DROP PITCHERS FROM DATASET #
 index = data['ERA'].index[data['ERA'].apply(np.isnan)]
 slimdata = data.loc[index]
-slimdata = slimdata.drop(['ERA','SO'], axis=1)
+slimdata = slimdata.drop(['ERA'], axis=1)
 
 ### CHECKING VARIABLE RELATIONSHIPS ###
 # SHRINKING THE DATA TO MAKE VISUALIZATIONS EASIER #
@@ -82,7 +82,7 @@ plt.show()
 slimdata['intercept'] = 1
 
 # DEFINING IVs & DVs #
-X = slimdata.drop(['salary'], axis = 1)
+X = slimdata.drop(['salary', 'intercept'], axis = 1)
 y = slimdata['salary']
 
 # RUNNING REGRESSION #
@@ -145,8 +145,14 @@ plt.show()
 '''Here we want to see a linear relationship'''
 
 fig = plt.figure(figsize=(10,10))
-fig = sm.graphics.plot_regress_exog(results2, 'H', fig=fig)
+fig = sm.graphics.plot_regress_exog(results, 'RBI', fig=fig)
 plt.show()
 '''2x2 plot containing DV and fitted values with CIs vs. selected IV,
 residuals vs. the IV, a partial regression plot, and a CCPR plot.
 Don't worry about the CCPR plot'''
+
+
+
+
+
+
