@@ -1,0 +1,23 @@
+import numpy
+import pandas
+import sklearn
+import csv
+
+#Test the import functionality against pandas.DataFrame.from_csv
+
+def open_titanic(filepath):
+with open(filepath, 'r') as csvfile:
+    titanic_reader = csv.reader(csvfile, delimiter=',', quotechar='"')
+    
+    # Header contains feature names
+    row = titanic_reader.next()
+    feature_names = np.array(row)
+    
+    # Load dataset, and target classes
+    titanic_X, titanic_y = [], []
+    for row in titanic_reader:  
+        titanic_X.append(row)
+        titanic_y.append(row[0]) # The target value is "survived"
+    # Changing to arrays
+    titanic_X = np.array(titanic_X)
+    titanic_y = np.array(titanic_y)
